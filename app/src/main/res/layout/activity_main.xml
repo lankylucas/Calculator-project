@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:layout_gravity="center"
+android:columnCount="4"
+    android:rowCount="4"
+android:orientation="horizontal" >
+
+
+    <EditText
+        android:id="@+id/answer"
+        android:layout_width="260dp"
+        android:layout_height="73dp"
+        android:layout_row="0"
+        android:layout_column="1"
+        android:layout_columnSpan="3"
+        android:layout_gravity="fill" />
+
+    <Button
+        android:id="@+id/div"
+        android:layout_height="68dp"
+        android:layout_column="0"
+        android:text="@string/divide" />
+
+    <Button android:id="@+id/clear"
+        android:text="@string/clear"/>
+<Button android:id="@+id/one"
+    android:text="@string/one" />
+
+<Button android:id="@+id/two"
+    android:text="@string/two" />
+
+<Button android:id="@+id/three"
+    android:text="@string/three" />
+
+<Button android:id="@+id/multiply"
+    android:text="@string/multiplication" />
+
+<Button android:id="@+id/four"
+    android:text="@string/four" />
+
+<Button android:id="@+id/five"
+    android:text="@string/five" />
+
+<Button android:id="@+id/six"
+    android:text="@string/six" />
+
+<Button android:id="@+id/minus"
+    android:text="@string/minus" />
+
+<Button android:id="@+id/seven"
+    android:text="@string/seven" />
+
+<Button android:id="@+id/eight"
+    android:text="@string/eight" />
+
+<Button android:id="@+id/nine"
+    android:text="@string/nine" />
+
+
+
+<Button
+    android:id="@+id/add"
+    android:layout_gravity="fill"
+    android:layout_rowSpan="1"
+    android:text="@string/add" />
+
+<Button
+    android:id="@+id/zero"
+    android:text="@string/zero" />
+
+<Button
+    android:id="@+id/double_zero"
+    android:text="@string/double_zero" />
+    <Button android:id="@+id/decimal"
+        android:text="@string/decimal"/>
+    <Button android:id="@+id/mod"
+        android:text="@string/mod"/>
+<Button
+    android:id="@+id/equals"
+    android:layout_column="1"
+    android:layout_columnSpan="3"
+    android:layout_gravity="fill"
+    android:text="@string/equals" />
+
+
+
+</GridLayout>
+
